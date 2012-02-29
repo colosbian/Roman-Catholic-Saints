@@ -1,0 +1,113 @@
+
+<!DOCTYPE HTML>
+<html>
+<table border="1" bordercolor="#888" cellspacing="10" style="border-collapse:collapse;border-top-color:rgb(136,136,136);border-right-color:rgb(136,136,136);border-bottom-color:rgb(136,136,136);border-left-color:rgb(136,136,136);border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px">
+	<tbody>
+	<tr>
+		<td style="width:200px;height:300px">
+			<img class="saint-img" alt="Pio of Pietrelcina" height="300" src="../media/200px-Padre_Pio.jpg" width="200">
+		</td>
+		<td style="width:260px;height:300px">
+			<span class="name"><b>Pio of Pietrelcina</b></span><br>
+			<span class="saint-type"><b>Priest</b></span><br>
+			<br>
+			<b>Dates: </b><span class="time-period">May 25, 1887</span> - <span class="time-period">September 23, 1968</span><br>
+			<br>
+			<b>Feast Day:</b> <span class="feast">September 23</span><br>
+			<br>
+			<b>Patronage:</b> <span class="patronage">Civil defense volunteers</span> and <span class="patronage">Catholic adolescents</span><br>
+			<br>
+			<b>Places: </b><span class="place">Pietrelcina, Benevento, Italy</span> and <span class="place">San Giovanni Rotondo, Foggia, Italy</span><br>
+			<br>
+			<b>Miracles:</b> <span class="miracles">Stigmata</span>, <span class="miracles">Healings</span>, <span class="miracles">Bilocation</span>
+		</td>
+	</tr>
+	</tbody>
+</table>
+<br>
+Learn more: <a rel="bio" href="Pio-of-Pietrelcina/bio">Biography</a><span>&nbsp;&nbsp; &nbsp;</span><a rel="miracles" href="Pio-of-Pietrelcina/miracles">Miracles</a><span>&nbsp;&nbsp; &nbsp;</span><a rel="prayers" href="./prayers.html">Prayers</a><br>
+<a rel="index" href="index.html">Home</a><br>
+<br>
+<br>
+<br>
+<div id="admin-forms">
+<h4>Admin Forms</h4>
+<form class="subpage-create" action="..." method="POST">
+<h5>Create a new subpage:</h5>
+		<p>
+			<label for="subpage">Subpage</label>
+			<select name="subpage" tabindex="1">
+				<option value="bio" >Biography</option>
+				<option value="miracles">Miracles</option>
+				<option value="prayers">Prayers</option>
+			</select>
+		</p>
+		<p>
+			<label for="text">Subpage Text</label>
+			<input type="text" name="Text"/>
+		</p>
+		<input type="submit" value="Create" />
+		</p>
+</form>
+<br>
+<form class="saint-edit" action="/Pio-of-Pietrelcina" method="POST">
+<h5>Edit this page:</h5>
+		<p>
+			<label for="Name">Name</label>
+			<input type="text" name="Name"value="Pio of Pietrelcina"/>
+		</p>
+		<p>
+			<label for="Type">Saint Type</label>
+			<input type="text" name="Type" value="Priest"/>
+		</p>
+		<p>
+			<label for="Time">Time Period</label>
+			<input type="text" name="Time" value="May 25, 1887"/>
+		</p>
+		<p>
+			<label for="Time">Time Period</label>
+			<input type="text" name="Time" value="September 23, 1968"/>
+		</p>
+		<p>
+			<label for="Feast">Feast Day</label>
+			<input type="text" name="feastmo" value="September"/>
+			<input type="text" name=feadtday" value="23"/>
+		</p>
+		<p>
+			<label for="Patronage">Patronage</label>
+			<input type="text" name="Patronage"value="Civil defense volunteers"/>
+			<input type="text" name="Patronage"value="Catholic adolescents"/>
+		</p>
+
+		<p>
+			<label for="Place">Place</label>
+			<input type="text" name="Place" value="Pietrelcina, Benevento, Italy"/>
+			<input type="text" name="Place" value="San Giovanni Rotondo, Foggia, Italy"/>
+		</p>
+		<p>
+			<label for="Miracles">Miracles</label>
+			<input type="text" name="Miracles" value="Stigmata"/>
+			<input type="text" name="Miracles" value="Healings"/>
+			<input type="text" name="Miracles" value="Bilocation"/>
+		</p>
+		<p>
+			<label for="saint-img">Image of the Saint</label>
+			<input type="file" name="saint-img" value="200px-Padre_Pio.jpg"/>
+		</p>
+		<input type="submit" value="Edit" />
+	</p>
+</form>
+<br>
+<form class="page-delete" action="/Pio-of-Pietrelcina" method="POST">
+<h5>Delete this page:</h5>
+		<p>
+			<label for="text">Delete</label>
+			<input type="checkbox" name="delete" value=""/>
+		</p>
+		<input type="submit" value="Delete" />
+		</p>
+</form>
+</div>
+
+
+</html>
