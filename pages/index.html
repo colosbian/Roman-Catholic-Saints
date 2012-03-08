@@ -1,22 +1,25 @@
-
 <!DOCTYPE HTML>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>All Saints</title>
+</head>
+<body>
 <div id="search">
-<form class="search" action="dosearch" method="get">
-		<p>
-			<label for="Anywhere">Keywords</label>
-			<input type="text" name="Anywhere"/>
-		</p>
-		<p>
-			<label for="Name">Name</label>
-			<input type="text" name="Name"/>
+<form class="search" action="dosearch" method="get">
+		<p>
+			<label for="Anywhere">Keywords</label>
+			<input type="text" name="Anywhere"/>
+		</p>
+		<p>
+			<label for="Name">Name</label>
+			<input type="text" name="Name"/>
 		</p>
 		<p>
 			<label for="Patronage">Patronage</label>
 			<input type="text" name="Patronage"/>
-		</p>
-		<p>
-			<label for="Feast">Feast Day</label>
+		</p>
+		<p>
+			<label for="Feast">Feast Day</label>
 			<select name="feastmo" tabindex="1">
 				<option value="1" >January</option>
 				<option value="2">February</option>
@@ -62,26 +65,25 @@
 				<option value="29">29</option>
 				<option value="30">30</option>
 				<option value="31">31</option>
-			</select>
-		</p>
-		<p>
-			<label for="Type">Saint Type</label>
-			<input type="text" name="Type"/>
-		</p>
-		<p>
-			<label for="Time">Time Period</label>
-			<input type="text" name="Time"/>
-		</p>
-		<p>
-			<label for="Place">Place</label>
-			<input type="text" name="Place"/>
-		</p>
-		<p>
-			<label for="Miracles">Miracles</label>
-			<input type="text" name="Miracles"/>
-		</p>
-		<input type="submit" value="Search" />
-	</p>
+			</select>
+		</p>
+		<p>
+			<label for="Type">Saint Type</label>
+			<input type="text" name="Type"/>
+		</p>
+		<p>
+			<label for="Time">Time Period</label>
+			<input type="text" name="Time"/>
+		</p>
+		<p>
+			<label for="Place">Place</label>
+			<input type="text" name="Place"/>
+		</p>
+		<p>
+			<label for="Miracles">Miracles</label>
+			<input type="text" name="Miracles"/>
+		</p>
+		<input type="submit" value="Search" />
 </form>
 </div>
 <!-- representing a list of all saints--> 
@@ -92,7 +94,7 @@
 			<a rel="saint" href="./Augustine-of-Hippo.html" title="Profile of Saint Augustine of Hippo">Saint Augustine of Hippo</a>
 		</li> 
 		<li class="saint">  
-			<a rel="saint" href="./John-the-Baptist.html" title="Profile of Saint John the Baptist">Saint John the Baptist</a><br>
+			<a rel="saint" href="./John-the-Baptist.html" title="Profile of Saint John the Baptist">Saint John the Baptist</a>
 		</li>
 		<li class="saint"> 
 			<a rel="saint" href="./Pio-of-Pietrelcina.html" title="Profile of Saint Pio of Pietrelcina">Saint Pio of Pietrelcina</a> 
@@ -117,29 +119,29 @@
 		</li> 
 	</ul> 
 </div>
-<br>
-<br>
-<br>
+<br/>
+<br/>
+<br/>
 <div id="admin-forms">
 <h4>Admin Forms</h4>
-<form class="saint-create" action="..." method="POST">
-<h5>Create a new saint page:</h5>
-		<p>
-			<label for="Name">Name</label>
-			<input type="text" name="Name"/>
+<form class="saint-create" action="..." method="post">
+<h5>Create a new saint page:</h5>
+		<p>
+			<label for="Name">Name</label>
+			<input type="text" name="Name"/>
 		</p>
-		<p>
-			<label for="Type">Saint Type</label>
+		<p>
+			<label for="Type">Saint Type</label>
 			<input type="text" name="Type"/>
-			<input type="text" name="Type"/>
+			<input type="text" name="Type"/>
 		</p>
-		<p>
-			<label for="Time">Time Period</label>
-			<input type="text" name="Time"/>
-			<input type="text" name="Time"/>
+		<p>
+			<label for="Time">Time Period</label>
+			<input type="text" name="Time"/>
+			<input type="text" name="Time"/>
 		</p>
-		<p>
-			<label for="Feast">Feast Day</label>
+		<p>
+			<label for="Feast">Feast Day</label>
 			<select name="feastmo" tabindex="1">
 				<option value="1" >January</option>
 				<option value="2">February</option>
@@ -185,32 +187,32 @@
 				<option value="29">29</option>
 				<option value="30">30</option>
 				<option value="31">31</option>
-			</select>
+			</select>
 		</p>
 		<p>
 			<label for="Patronage">Patronage</label>
 			<input type="text" name="Patronage"/>
 			<input type="text" name="Patronage"/>
 			<input type="text" name="Patronage"/>
-		</p>
-		<p>
-			<label for="Place">Place</label>
+		</p>
+		<p>
+			<label for="Place">Place</label>
 			<input type="text" name="Place"/>
 			<input type="text" name="Place"/>
-			<input type="text" name="Place"/>
-		</p>
-		<p>
-			<label for="Miracles">Miracles</label>
+			<input type="text" name="Place"/>
+		</p>
+		<p>
+			<label for="Miracles">Miracles</label>
 			<input type="text" name="Miracles"/>
 			<input type="text" name="Miracles"/>
-			<input type="text" name="Miracles"/>
+			<input type="text" name="Miracles"/>
 		</p>
 		<p>
 			<label for="saint-img">Image of the Saint</label>
 			<input type="file" name="saint-img"/>
-		</p>
-		<input type="submit" value="Create" />
-	</p>
+		</p>
+		<input type="submit" value="Create" />
 </form>
 </div>
+</body>
 </html>
